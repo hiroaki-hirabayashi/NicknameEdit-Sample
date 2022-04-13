@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4099AAB5B62B7F6FDC696E63 /* Pods_NicknameEdit_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6AFBA9BAF683A0EE4B1938 /* Pods_NicknameEdit_SampleTests.framework */; };
+		806C483826CA5B88A5C44629 /* Pods_NicknameEdit_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3568273D88CEADF9446EF462 /* Pods_NicknameEdit_Sample.framework */; };
+		F340F9388ED4AC4D64AD62A2 /* Pods_NicknameEdit_Sample_NicknameEdit_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006F272DCFCC5A1C84550D94 /* Pods_NicknameEdit_Sample_NicknameEdit_SampleUITests.framework */; };
 		F4DD11B12807192B0090E163 /* NicknameEdit_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11B02807192B0090E163 /* NicknameEdit_SampleApp.swift */; };
 		F4DD11B32807192B0090E163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11B22807192B0090E163 /* ContentView.swift */; };
 		F4DD11B52807192D0090E163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DD11B42807192D0090E163 /* Assets.xcassets */; };
@@ -16,6 +19,20 @@
 		F4DD11C72807192D0090E163 /* NicknameEdit_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11C62807192D0090E163 /* NicknameEdit_SampleTests.swift */; };
 		F4DD11D12807192D0090E163 /* NicknameEdit_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11D02807192D0090E163 /* NicknameEdit_SampleUITests.swift */; };
 		F4DD11D32807192D0090E163 /* NicknameEdit_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11D22807192D0090E163 /* NicknameEdit_SampleUITestsLaunchTests.swift */; };
+		F4DD11E628071AFB0090E163 /* AsyncImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11E528071AFB0090E163 /* AsyncImageDownloader.swift */; };
+		F4DD11E828071EC70090E163 /* NicknameEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11E728071EC70090E163 /* NicknameEditViewModel.swift */; };
+		F4DD11EB28071F4F0090E163 /* AvatarViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11EA28071F4F0090E163 /* AvatarViewModelMapper.swift */; };
+		F4DD11ED28071F7F0090E163 /* NickNameEditViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11EC28071F7F0090E163 /* NickNameEditViewModelMapper.swift */; };
+		F4DD11F028071FDB0090E163 /* UserNicknameSaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11EF28071FDB0090E163 /* UserNicknameSaveData.swift */; };
+		F4DD11F2280720480090E163 /* ViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11F1280720480090E163 /* ViewModelMapper.swift */; };
+		F4DD11F5280721320090E163 /* AvatarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11F4280721320090E163 /* AvatarModel.swift */; };
+		F4DD11F82807226F0090E163 /* NicknameEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11F72807226F0090E163 /* NicknameEditView.swift */; };
+		F4DD11FA280722D30090E163 /* ViewControllerHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11F9280722D30090E163 /* ViewControllerHolder.swift */; };
+		F4DD11FC280723DF0090E163 /* NicknameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11FB280723DF0090E163 /* NicknameTextField.swift */; };
+		F4DD11FF2807246B0090E163 /* AvatarPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD11FE2807246B0090E163 /* AvatarPageView.swift */; };
+		F4DD1201280724A40090E163 /* AvatarSelectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1200280724A40090E163 /* AvatarSelectableView.swift */; };
+		F4DD1205280727BC0090E163 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1204280727BC0090E163 /* StartView.swift */; };
+		F4DD1207280728390090E163 /* ModalHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD1206280728390090E163 /* ModalHostingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006F272DCFCC5A1C84550D94 /* Pods_NicknameEdit_Sample_NicknameEdit_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NicknameEdit_Sample_NicknameEdit_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3568273D88CEADF9446EF462 /* Pods_NicknameEdit_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NicknameEdit_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		691EDF52CDAAAC56E64EBA86 /* Pods-NicknameEdit-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicknameEdit-Sample.release.xcconfig"; path = "Target Support Files/Pods-NicknameEdit-Sample/Pods-NicknameEdit-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		7CC09C3BDAADE8EFE5FC0349 /* Pods-NicknameEdit-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicknameEdit-SampleTests.release.xcconfig"; path = "Target Support Files/Pods-NicknameEdit-SampleTests/Pods-NicknameEdit-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		87FA5D7DB7848A5FA41276F8 /* Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F246AEF19DCE751B560096E /* Pods-NicknameEdit-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicknameEdit-SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-NicknameEdit-SampleTests/Pods-NicknameEdit-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF6AFBA9BAF683A0EE4B1938 /* Pods_NicknameEdit_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NicknameEdit_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1F5D70EDFD360566737EC2 /* Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFE8F824D9F211FC5BF2CB28 /* Pods-NicknameEdit-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicknameEdit-Sample.debug.xcconfig"; path = "Target Support Files/Pods-NicknameEdit-Sample/Pods-NicknameEdit-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		F4DD11AD2807192B0090E163 /* NicknameEdit-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NicknameEdit-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD11B02807192B0090E163 /* NicknameEdit_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameEdit_SampleApp.swift; sourceTree = "<group>"; };
 		F4DD11B22807192B0090E163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +74,20 @@
 		F4DD11CC2807192D0090E163 /* NicknameEdit-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NicknameEdit-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD11D02807192D0090E163 /* NicknameEdit_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameEdit_SampleUITests.swift; sourceTree = "<group>"; };
 		F4DD11D22807192D0090E163 /* NicknameEdit_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameEdit_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4DD11E528071AFB0090E163 /* AsyncImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloader.swift; sourceTree = "<group>"; };
+		F4DD11E728071EC70090E163 /* NicknameEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameEditViewModel.swift; sourceTree = "<group>"; };
+		F4DD11EA28071F4F0090E163 /* AvatarViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewModelMapper.swift; sourceTree = "<group>"; };
+		F4DD11EC28071F7F0090E163 /* NickNameEditViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameEditViewModelMapper.swift; sourceTree = "<group>"; };
+		F4DD11EF28071FDB0090E163 /* UserNicknameSaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNicknameSaveData.swift; sourceTree = "<group>"; };
+		F4DD11F1280720480090E163 /* ViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelMapper.swift; sourceTree = "<group>"; };
+		F4DD11F4280721320090E163 /* AvatarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarModel.swift; sourceTree = "<group>"; };
+		F4DD11F72807226F0090E163 /* NicknameEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameEditView.swift; sourceTree = "<group>"; };
+		F4DD11F9280722D30090E163 /* ViewControllerHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHolder.swift; sourceTree = "<group>"; };
+		F4DD11FB280723DF0090E163 /* NicknameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameTextField.swift; sourceTree = "<group>"; };
+		F4DD11FE2807246B0090E163 /* AvatarPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPageView.swift; sourceTree = "<group>"; };
+		F4DD1200280724A40090E163 /* AvatarSelectableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarSelectableView.swift; sourceTree = "<group>"; };
+		F4DD1204280727BC0090E163 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		F4DD1206280728390090E163 /* ModalHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHostingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806C483826CA5B88A5C44629 /* Pods_NicknameEdit_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4099AAB5B62B7F6FDC696E63 /* Pods_NicknameEdit_SampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +111,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F340F9388ED4AC4D64AD62A2 /* Pods_NicknameEdit_Sample_NicknameEdit_SampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		749476B3E09BAB4C428A541D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8F824D9F211FC5BF2CB28 /* Pods-NicknameEdit-Sample.debug.xcconfig */,
+				691EDF52CDAAAC56E64EBA86 /* Pods-NicknameEdit-Sample.release.xcconfig */,
+				CD1F5D70EDFD360566737EC2 /* Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests.debug.xcconfig */,
+				87FA5D7DB7848A5FA41276F8 /* Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests.release.xcconfig */,
+				8F246AEF19DCE751B560096E /* Pods-NicknameEdit-SampleTests.debug.xcconfig */,
+				7CC09C3BDAADE8EFE5FC0349 /* Pods-NicknameEdit-SampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1841ED3D04CB9AF72476755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3568273D88CEADF9446EF462 /* Pods_NicknameEdit_Sample.framework */,
+				006F272DCFCC5A1C84550D94 /* Pods_NicknameEdit_Sample_NicknameEdit_SampleUITests.framework */,
+				AF6AFBA9BAF683A0EE4B1938 /* Pods_NicknameEdit_SampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4DD11A42807192A0090E163 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +148,8 @@
 				F4DD11C52807192D0090E163 /* NicknameEdit-SampleTests */,
 				F4DD11CF2807192D0090E163 /* NicknameEdit-SampleUITests */,
 				F4DD11AE2807192B0090E163 /* Products */,
+				749476B3E09BAB4C428A541D /* Pods */,
+				C1841ED3D04CB9AF72476755 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +168,9 @@
 			children = (
 				F4DD11B02807192B0090E163 /* NicknameEdit_SampleApp.swift */,
 				F4DD11B22807192B0090E163 /* ContentView.swift */,
+				F4DD11EE28071FC30090E163 /* Date */,
+				F4DD11DF2807196B0090E163 /* Presentation */,
+				F4DD11E2280719A80090E163 /* Utils */,
 				F4DD11B42807192D0090E163 /* Assets.xcassets */,
 				F4DD11B92807192D0090E163 /* Persistence.swift */,
 				F4DD11BB2807192D0090E163 /* NicknameEdit_Sample.xcdatamodeld */,
@@ -133,6 +204,97 @@
 			path = "NicknameEdit-SampleUITests";
 			sourceTree = "<group>";
 		};
+		F4DD11DF2807196B0090E163 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD11F3280721110090E163 /* Models */,
+				F4DD11E928071F390090E163 /* Mapper */,
+				F4DD11E0280719710090E163 /* ViewModels */,
+				F4DD11E12807197B0090E163 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F4DD11E0280719710090E163 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD11E3280719D80090E163 /* Nickname */,
+				F4DD11E728071EC70090E163 /* NicknameEditViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F4DD11E12807197B0090E163 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD11E4280719DE0090E163 /* Nickname */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4DD11E2280719A80090E163 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD11E528071AFB0090E163 /* AsyncImageDownloader.swift */,
+				F4DD11F9280722D30090E163 /* ViewControllerHolder.swift */,
+				F4DD1206280728390090E163 /* ModalHostingController.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F4DD11E3280719D80090E163 /* Nickname */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nickname;
+			sourceTree = "<group>";
+		};
+		F4DD11E4280719DE0090E163 /* Nickname */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD11FD280724580090E163 /* Sub */,
+				F4DD11F72807226F0090E163 /* NicknameEditView.swift */,
+			);
+			path = Nickname;
+			sourceTree = "<group>";
+		};
+		F4DD11E928071F390090E163 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD11F1280720480090E163 /* ViewModelMapper.swift */,
+				F4DD11EA28071F4F0090E163 /* AvatarViewModelMapper.swift */,
+				F4DD11EC28071F7F0090E163 /* NickNameEditViewModelMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		F4DD11EE28071FC30090E163 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD11EF28071FDB0090E163 /* UserNicknameSaveData.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		F4DD11F3280721110090E163 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD11F4280721320090E163 /* AvatarModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4DD11FD280724580090E163 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD11FB280723DF0090E163 /* NicknameTextField.swift */,
+				F4DD11FE2807246B0090E163 /* AvatarPageView.swift */,
+				F4DD1200280724A40090E163 /* AvatarSelectableView.swift */,
+				F4DD1204280727BC0090E163 /* StartView.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DD11D62807192D0090E163 /* Build configuration list for PBXNativeTarget "NicknameEdit-Sample" */;
 			buildPhases = (
+				A283D349640839C08D7E067C /* [CP] Check Pods Manifest.lock */,
 				F4DD11A92807192B0090E163 /* Sources */,
 				F4DD11AA2807192B0090E163 /* Frameworks */,
 				F4DD11AB2807192B0090E163 /* Resources */,
+				4B171C262B1E611B1183C7D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +321,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DD11D92807192D0090E163 /* Build configuration list for PBXNativeTarget "NicknameEdit-SampleTests" */;
 			buildPhases = (
+				586DFDF587BA8584FDB41CC8 /* [CP] Check Pods Manifest.lock */,
 				F4DD11BE2807192D0090E163 /* Sources */,
 				F4DD11BF2807192D0090E163 /* Frameworks */,
 				F4DD11C02807192D0090E163 /* Resources */,
@@ -175,9 +340,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DD11DC2807192D0090E163 /* Build configuration list for PBXNativeTarget "NicknameEdit-SampleUITests" */;
 			buildPhases = (
+				458DFCEC56DDEC48FCD73D9D /* [CP] Check Pods Manifest.lock */,
 				F4DD11C82807192D0090E163 /* Sources */,
 				F4DD11C92807192D0090E163 /* Frameworks */,
 				F4DD11CA2807192D0090E163 /* Resources */,
+				D64FEB65186017FAE7FBE4A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,15 +425,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		458DFCEC56DDEC48FCD73D9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B171C262B1E611B1183C7D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NicknameEdit-Sample/Pods-NicknameEdit-Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NicknameEdit-Sample/Pods-NicknameEdit-Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NicknameEdit-Sample/Pods-NicknameEdit-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		586DFDF587BA8584FDB41CC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NicknameEdit-SampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A283D349640839C08D7E067C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NicknameEdit-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D64FEB65186017FAE7FBE4A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests/Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4DD11A92807192B0090E163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DD1205280727BC0090E163 /* StartView.swift in Sources */,
 				F4DD11BA2807192D0090E163 /* Persistence.swift in Sources */,
+				F4DD11F5280721320090E163 /* AvatarModel.swift in Sources */,
+				F4DD11FF2807246B0090E163 /* AvatarPageView.swift in Sources */,
+				F4DD1201280724A40090E163 /* AvatarSelectableView.swift in Sources */,
+				F4DD11EB28071F4F0090E163 /* AvatarViewModelMapper.swift in Sources */,
 				F4DD11B32807192B0090E163 /* ContentView.swift in Sources */,
+				F4DD11ED28071F7F0090E163 /* NickNameEditViewModelMapper.swift in Sources */,
+				F4DD1207280728390090E163 /* ModalHostingController.swift in Sources */,
+				F4DD11F028071FDB0090E163 /* UserNicknameSaveData.swift in Sources */,
+				F4DD11F2280720480090E163 /* ViewModelMapper.swift in Sources */,
 				F4DD11BD2807192D0090E163 /* NicknameEdit_Sample.xcdatamodeld in Sources */,
+				F4DD11FA280722D30090E163 /* ViewControllerHolder.swift in Sources */,
+				F4DD11F82807226F0090E163 /* NicknameEditView.swift in Sources */,
+				F4DD11E628071AFB0090E163 /* AsyncImageDownloader.swift in Sources */,
+				F4DD11E828071EC70090E163 /* NicknameEditViewModel.swift in Sources */,
 				F4DD11B12807192B0090E163 /* NicknameEdit_SampleApp.swift in Sources */,
+				F4DD11FC280723DF0090E163 /* NicknameTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +705,7 @@
 		};
 		F4DD11D72807192D0090E163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE8F824D9F211FC5BF2CB28 /* Pods-NicknameEdit-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +735,7 @@
 		};
 		F4DD11D82807192D0090E163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691EDF52CDAAAC56E64EBA86 /* Pods-NicknameEdit-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +765,7 @@
 		};
 		F4DD11DA2807192D0090E163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F246AEF19DCE751B560096E /* Pods-NicknameEdit-SampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +791,7 @@
 		};
 		F4DD11DB2807192D0090E163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC09C3BDAADE8EFE5FC0349 /* Pods-NicknameEdit-SampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +817,7 @@
 		};
 		F4DD11DD2807192D0090E163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1F5D70EDFD360566737EC2 /* Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +841,7 @@
 		};
 		F4DD11DE2807192D0090E163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87FA5D7DB7848A5FA41276F8 /* Pods-NicknameEdit-Sample-NicknameEdit-SampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

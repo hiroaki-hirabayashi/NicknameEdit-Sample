@@ -252,8 +252,8 @@
 		F4DD11E4280719DE0090E163 /* Nickname */ = {
 			isa = PBXGroup;
 			children = (
+				F4DD1208280AFD870090E163 /* Main */,
 				F4DD11FD280724580090E163 /* Sub */,
-				F4DD11F72807226F0090E163 /* NicknameEditView.swift */,
 			);
 			path = Nickname;
 			sourceTree = "<group>";
@@ -293,6 +293,14 @@
 				F4DD1204280727BC0090E163 /* StartView.swift */,
 			);
 			path = Sub;
+			sourceTree = "<group>";
+		};
+		F4DD1208280AFD870090E163 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD11F72807226F0090E163 /* NicknameEditView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -64,7 +64,7 @@ struct NicknameEditView: View {
                         Text("保存")
                             .font(.system(size: 18).bold())
                     }
-                    .disabled(nicknameViewModel.edited)
+                    .disabled(!nicknameViewModel.edited)
                     .frame(height: 48)
 
                 }
